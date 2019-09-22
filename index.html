@@ -31,7 +31,8 @@
         <div class="row">
           <div class="col-xl-12 mx-auto">
             <img id="myPic" class="img-responsive float-left mb-1 mr-4" style="width:40%; border-radius: 10px" src="./assets/images/tempheadshot.jpg" alt="kaitlyn's headshot">
-            <p>My name is Kaitlyn Steagall, one thing all of my managers have said about me is how detail oriented I am. 
+            <p>My name is Kaitlyn Steagall, 
+              <!-- one thing all of my managers have said about me is how detail oriented I am.  -->
           </div>
         </div>
       </div>
@@ -78,7 +79,7 @@
           <div class="col-xl-12 mx-auto mb-4">
             <div class="card text-center">
               <div class="card-body">
-                <span class="card-title"><a href="./assets/pdf/BootCampResume.pdf" style="color: #89a670">My Resume <i class="far fa-file-pdf"></i></a></span>
+                <span class="card-title"><a data-toggle="modal" href="#funFacts" style="color: #89a670">My Resume <i class="far fa-file-pdf"></i></a></span>
               </div>
             </div>
           </div>
@@ -89,6 +90,21 @@
     </div>
 
   </div>
+    
+  <div class="modal fade" id="funFacts" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <embed src="./assets/pdf/WebDevResume.pdf#viewrect=left,top,wd,ht" frameborder="0" width="100%" height="500px">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn" data-dismiss="modal" style="background-color: #89a670">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 
   <div class="navbar navbar-expand-lg navbar-light bg-light mt-5 pt-3 pb-3 text-center" style="width: 100%; text-align: center; background-color:rgba(255, 255, 255, 0.966)">
     <div class="row mx-auto">
