@@ -15,6 +15,11 @@ body {
   border-right: solid 1px #dedede;
 }
 
+#email-and-ph {
+  font-size: 14px;
+  color: #89a670;
+}
+
 @media screen and (max-width: 767px) {
   #myPic {
     min-width: 100%;
@@ -25,4 +30,12 @@ body {
   #aboutMe {
     min-width: 100%;
   }
+
+  #email-and-ph {
+  font-size: 10px;
 }
+}
+
+/* .email-and-ph {
+  font-size: 1px;
+} */
