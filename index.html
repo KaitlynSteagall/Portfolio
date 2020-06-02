@@ -5,135 +5,102 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  <title>Portfolio</title>
+  <title>Kaitlyn Steagall - About Me</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Comfortaa:600&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 
-<body>
-  
-  <nav class="navbar navbar-expand-lg navbar-light mb-5 mt-3" style="background-color:rgba(255, 255, 255, 0.966)">
-    <div class="container">
+<body style="background-image: url('./assets/images/fern.jpg');">
+  <page id="page-container">
+    <div id="content-wrapper">
 
-      <a class="navbar-brand mx-auto text-center">
-        <h2 class="pt-1" style="color: #89a670">Kaitlyn Steagall <br/> <h6 id="email-and-ph">Email: kaitlynsteagall@gmail.com | Phone: (503)679-6794</h6> </h2>
-      </a>
+      <nav class="navbar navbar-expand-lg navbar-light mb-5" style="background-color:rgba(255, 255, 255, 0.85)">
+        <div class="container">
+          <a class="navbar-brand mx-auto text-center" href="./index.html">
+            <h2 class="pt-1" style="color: #89a670">Kaitlyn Steagall <br />
+              <h6 id="email-and-ph">Email: kaitlynsteagall.webdev@gmail.com | Phone: (503)679-6794</h6>
+            </h2>
+          </a>
+        </div>
+      </nav>
 
-    </div>
-  </nav>
+      <div class="container">
+        <div class="row" style="border-radius: 10px; background-color:rgba(236, 236, 236, 0.89);">
+          <div class="col-xl-12 mt-3">
+            <div class="row">
 
-  <div class="container">
+              <div class="col-xl-12 mx-auto">
 
-    <div class="row" style="border-radius: 10px; background-color:rgba(236, 236, 236, 0.801);">
+                <div class="col-12 mx-auto">
+                  <a data-toggle="modal" href="#funFacts"><img class="img-responsive float-left mb-1 mr-4" id="myPic"
+                      style="width:40%; border-radius: 10px" src="./assets/images/tempheadshot1.jpg"
+                      alt="kaitlyn's headshot"></a>
+                </div>
 
-      <div class="col-xl-9 mt-5">
-        <div class="row">
-          <div class="col-xl-12 mx-auto">
-            <div class="col-12 mx-auto">
-              <a data-toggle="modal" href="#funFacts"><img class="img-responsive float-left mb-3 mr-4" id="myPic" style="width:40%; border-radius: 10px" src="./assets/images/tempheadshot.jpg" alt="kaitlyn's headshot"></a>
+                <div>
+                  <h3 class="mb-4 mt-1">About Me</h3>
+                  <p id="aboutMe">Hello, I'm Kaitlyn Steagall! I'm a full stack developer, with a focus on front-end
+                    development.
+                    <br /><br />
+                    I'm a born and raised Oregonian who prides themself on being a detail oriented individual. It's an
+                    attribute that all of my
+                    former managers will attest to.
+                    <!-- I love finding the patterns in everything and perfecting the learn and improving always, pleaser, perfection, team player -->
+                    <br /><br />
+                    So far I have experience in HTML, CSS, Bootstrap, Javascript, JQuery, and Node. Right now I really
+                    enjoy
+                    working UI because
+                    making visually pleasing sites and apps brings out my creative side, but I'm excited to keep
+                    learning
+                    and growing as a web developer.
+                    <br /><br />
+                  </p>
+                  
+                  <div class="row">
+                    <div class="col-xl-4 col-md-5 col-sm-5 col-xs-5 ml-auto mb-4">
+                      <div class="card text-center">
+                        <div class="card-body">
+                          <span class="card-title"><a href="./assets/pdf/WebDevResume.pdf" target="blank"
+                              style="color: #89a670">My
+                              Resume
+                              <i class="far fa-file-pdf"></i></a></span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-xl-4 col-md-5 col-sm-5 col-xs-5 mr-auto mb-4">
+                      <div class="card text-center">
+                        <div class="card-body">
+                          <span class="card-title"><a href="./portfolio.html" style="color: #89a670">My
+                              Portfolio <i class="fas fa-book-open"></i></a></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
             </div>
-            <p id="aboutMe">Hello, I'm Kaitlyn Steagall! I'm a full stack developer in training at the University of Oregon Coding Bootcamp.
-              <br/><br/>
-              I pride myself on being a detail oriented individual(my managers will attest to this). 
-              <!-- I love finding the patterns in everything and perfecting the learn and improving always, pleaser, perfection, team player -->
-              <br/><br/>
-              So far I have experience in HTML, CSS, Bootstrap, Javascript, JQuery, and Node. Right now I really enjoy working UI because 
-              making visually pleasing sites and apps brings out my creative side, but I'm excited to keep learning and growing as a web developer.
-            </p>
           </div>
         </div>
       </div>
 
-      <div class="col-xl-3 mb-3 mt-5">
-
-        <div class="row">
-          <div class="col-xl-12 col-md-5 mx-auto mb-4">
-            <div class="card text-center">
-              <a href="https://noahsylwester.github.io/Netpets/"><img src="./assets/gifs/NetPets.gif"  style="width: 13rem;" class="card-img-top mx-auto mt-3" alt="NetPets Game"></a>
-              <div class="card-body">
-                <h5 class="card-title"><a href="https://noahsylwester.github.io/Netpets/" style="color: #89a670">NetPets</a></h5>
-                <a href="https://github.com/NoahSylwester/Netpets" style="color: #89a670">Checkout our collaborative code</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-xl-12 col-md-5 mx-auto mb-4">
-            <div class="card text-center">
-              <img src="./assets/images/puffinScreenshot.JPG" style="width: 13rem;" class="card-img-top mx-auto mt-3" alt=""> <!-- Add GIF/pic once code is updated/page is more styled-->
-              <div class="card-body">
-                <h5 class="card-title"><a href="https://grumpy-puffin-4289.herokuapp.com/" style="color: #89a670">Puffin Power</a></h5>
-                <a href="https://github.com/KaitlynSteagall/Project" style="color: #89a670">Checkout more collaborative code</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-xl-12 col-md-5 mx-auto mb-4">
-            <div class="card text-center">
-              <img src="" class="card-img-top" alt=""> <!-- Add GIF/pic once code is updated/page is more styled-->
-              <div class="card-body">
-                <h5 class="card-title"><a href="https://kaitlynsteagall.github.io/Animal-GIPHY-API/" style="color: #89a670">Animal GIPHY API</a></h5>
-                <a href="https://github.com/KaitlynSteagall/Animal-GIPHY-API" style="color: #89a670">Checkout my ajax code</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-xl-12 col-md-5 mx-auto mb-4">
-            <div class="card text-center">
-              <img src="" class="card-img-top" alt=""> <!-- Add GIF/pic once code is updated/page is more styled-->
-              <div class="card-body">
-                <h5 class="card-title"><a href="https://kaitlynsteagall.github.io/Trivia-Game/" style="color: #89a670">Animal Trivia</a></h5>
-                <a href="https://github.com/KaitlynSteagall/Trivia-Game" style="color: #89a670">Checkout my jquery code</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-xl-12 col-md-5 mx-auto mb-4">
-            <div class="card text-center">
-              <div class="card-body">
-                <span class="card-title"><a data-toggle="modal" href="#Resume" style="color: #89a670">My Resume <i class="far fa-file-pdf"></i></a></span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
     </div>
 
-  </div>
-    
-  <div class="modal fade" id="Resume" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <embed src="./assets/pdf/WebDevResume.pdf#viewrect=left,top,wd,ht" frameborder="0" width="100%" height="500px">
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn" data-dismiss="modal" style="background-color: #89a670">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal fade" id="funFacts" tabindex="-1" role="dialog" aria-hidden="true">
+    <modal class="modal fade" id="funFacts" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-body">
             <h2>Fun Facts!</h2>
             <ul>
-              <li>I love animals and I have a dog, cat, ferret, and beta fish.</li>
-              <li>I've flown a Cessna-172 and jumped out of a Cessna Grand Caravan.</li>
-              <li>I played the violin for 8 years.</li>
+              <li>I love animals and we have a dog, cat, ball python, beta fish, and African dwarf frogs in our house.</li>
+              <li>I've flown a Cessna-172 and skydived out of a Cessna Grand Caravan.</li>
+              <li>I played the violin for 8 years.</li> 
+              <li>I love Sudoku, Picross, Minesweeper and other logic games/puzzles.</li>
               <li>I collect rocks, shells, four-leaf clovers, and fridge magnents.</li>
+              <li>I love taking pictures and the background images you're seeing are from me.</li>
             </ul>
           </div>
           <div class="modal-footer">
@@ -141,18 +108,22 @@
           </div>
         </div>
       </div>
-    </div>
+    </modal>
+
+  </page>
 
 
-  <div class="navbar navbar-expand-lg navbar-light bg-light mt-5 pt-3 pb-3 text-center" style="width: 100%; text-align: center; background-color:rgba(255, 255, 255, 0.966)">
+  <footer class="navbar navbar-expand-lg navbar-light mt-5 pt-3 pb-3 text-center"
+    style="position: absolute; bottom: 0; width: 100%; text-align: center; background-color:rgba(255, 255, 255, 0.87)">
     <div class="row mx-auto">
       <div class="footerIcons pr-3"><a href="mailto:kaitlynsteagall@gmail.com" style="color: #6f795a">Email</a></div>
       <div class="footerIcons pl-3 pr-3"><a href="tel:(503)679-6794" style="color: #6f795a">Call</a></div>
-      <div class="footerIcons pl-4 pr-4"><a href="https://www.linkedin.com/in/kaitlyn-steagall/" style="color: #6f795a"><i class="fab fa-linkedin"></i></a></div>
-      <div class="pl-4 pr-4"><a href="https://github.com/KaitlynSteagall" style="color: #6f795a"><i class="fab fa-github-square"></i></a></div>
+      <div class="footerIcons pl-4 pr-4"><a href="https://www.linkedin.com/in/kaitlyn-steagall/"
+          style="color: #6f795a"><i class="fab fa-linkedin"></i></a></div>
+      <div class="pl-4 pr-4"><a href="https://github.com/KaitlynSteagall" style="color: #6f795a"><i
+            class="fab fa-github-square"></i></a></div>
     </div>
-  </div>
-
+  </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
