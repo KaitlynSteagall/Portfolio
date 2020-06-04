@@ -16,6 +16,11 @@ body {
   font-family: 'Comfortaa', cursive
 }
 
+.reviews {
+  font-size: 12px;
+  font-style: italic;
+}
+
 .footerIcons {
   border-right: solid 1px #dedede;
 }
