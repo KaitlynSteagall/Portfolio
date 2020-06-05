@@ -30,6 +30,11 @@ body {
   color: #89a670;
 }
 
+#email-and-ph-portfolio {
+  font-size: 14px;
+  color: rgb(115, 181, 197);
+}
+
 @media screen and (max-width: 767px) {
   #myPic {
     min-width: 60%;
@@ -42,6 +47,10 @@ body {
   }
 
   #email-and-ph {
-  font-size: 10px;
-}
+    font-size: 10px;
+  }
+
+  #email-and-ph-portfolio {
+    font-size: 10px;
+  }
 }
